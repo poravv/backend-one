@@ -4,8 +4,8 @@ const connect = async()=>{
     try{
         await database.authenticate()
         console.log("*** CONECTADO A LA BASE DE DATOS ***")
-    }catch(err){
-        console.log("Error: "+err)
+    }catch(error){
+        console.log("************Error: "+error)
     }
 }
 
